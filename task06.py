@@ -1,4 +1,5 @@
-email = input("Email manzilini kiriting: ")
-indeks = email.find("@")
-
-print(indeks)
+text = input("enter text: ")
+if text.isspace():
+    print(True)
+else:
+    print(False)
